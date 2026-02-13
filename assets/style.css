@@ -14,6 +14,7 @@
 --body-copy: 16px;
 --title: 36px;
 --subtitle: 32px;
+--brand-color: #EC5151;
 }
 
 body 
@@ -25,7 +26,7 @@ line-height: 1.5;
 width: 80%;
 margin: auto;
 margin-bottom: 20vh;
-background-color:#EC5151;
+background-color: var(--brand-color);
 }
 
 h1 
@@ -51,7 +52,7 @@ position: sticky;
 top: 0;
 left: 0;
 width: 100%;
-background-color: #EC5151;
+background-color: var(--brand-color);
 display: flex;
 align-items: center;
 z-index: 1000;
